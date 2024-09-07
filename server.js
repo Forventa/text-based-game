@@ -4,7 +4,7 @@ const path = require("path");
 const port = 3000;
 
 
-app.use("/employees", require("./routes/api/employees"));
+app.use("/users", require("./routes/api/users"));
 
 
 app.get("/", (req, res) =>{
