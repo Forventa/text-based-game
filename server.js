@@ -5,7 +5,7 @@ const port = 3000;
 
 
 app.use("/users", require("./routes/api/users"));
-
+app.use("/register", require("./routes/api/register"));
 
 app.get("/", (req, res) =>{
     res.sendFile("./views/index.html", {root: __dirname});

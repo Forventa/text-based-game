@@ -1,9 +1,7 @@
 [
     {
-        "name": "timmie",
+        "username": "timmie",
+        "password": "1234",
         "level": 1
-
-        
-        
     }
 ]
