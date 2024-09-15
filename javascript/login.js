@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const { post } = require("../routes/api/users");
 const route = express.Router();
 
 
